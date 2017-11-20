@@ -14,4 +14,6 @@ INSTRUCTIONS:
 2)Open the file "final_scraper.py" in any text editor.
   Assign values to the variables "USERNAME", "PASSWORD", "display_file_path", and "output_file_path"
 3)Open crontab and insert the following line:
+  0 * * * * python /path/to/final_scraper.py
+Here /path/to/ is to be replaced by the path to the repository where final_scraper.py is stored on your system.
     
