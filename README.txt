@@ -16,4 +16,6 @@ INSTRUCTIONS:
 3)Open crontab and insert the following line:
   0 * * * * python /path/to/final_scraper.py
 Here /path/to/ is to be replaced by the path to the repository where final_scraper.py is stored on your system.
-    
+ 
+
+Please note that while the forum post checking feature has been implemented in this script, its accuracy has not been ascertained due to the lack of new forum posts on lms.
