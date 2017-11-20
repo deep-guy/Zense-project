@@ -141,7 +141,7 @@ with requests.Session() as c:
             with open(output_file_path, "a") as updates:
                 updates.write(current_time + ":  Upcoming events!\n")
                 for event in events_list:
-                    updates.write(event.span.a.text + "----")
+                    updates.write(event.a.text + "----")
                     updates.write(event.div.a.text + "\n")
         
                     
