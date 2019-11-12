@@ -1,3 +1,4 @@
+# LMS Web Scraper
 This scraping module will display all the new assignments that have been uploaded and all the recent forum posts on lms.
 
 In the initial execution, the code collects a list of all assignments that are already present.
@@ -8,14 +9,14 @@ If a new assignment has been added, it displays the new assignment name.
 
 It also checks for forum posts and displays all names of people who have made recent forum posts.
 
-INSTRUCTIONS:
+### INSTRUCTIONS:
 
-1)Make sure your system has BeautifulSoup module and lxml parser installed.
-2)Open the file "final_scraper.py" in any text editor.
+- Make sure your system has BeautifulSoup module and lxml parser installed.
+- Open the file "final_scraper.py" in any text editor.
   Assign values to the variables "USERNAME", "PASSWORD", "display_file_path", and "output_file_path"
-3)Open crontab and insert the following line:
+- Open crontab and insert the following line:
   0 * * * * python /path/to/final_scraper.py
-Here /path/to/ is to be replaced by the path to the repository where final_scraper.py is stored on your system.
+(Here /path/to/ is to be replaced by the path to the repository where final_scraper.py is stored on your system.)
  
 
 Please note that while the forum post checking feature has been implemented in this script, its accuracy has not been ascertained due to the lack of new forum posts on lms.
